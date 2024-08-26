@@ -104,7 +104,7 @@ pub fn forward_port (session: &Session, protocol: &str, internal_port: u16, exte
         <NewProtocol>{protocol}</NewProtocol>\r\n\
         <NewInternalPort>{internal_port}</NewInternalPort>\r\n\
         <NewInternalClient>{local_ip}</NewInternalClient>
-        <NewEnabled>true</NewEnabled>\r\n\
+        <NewEnabled>1</NewEnabled>\r\n\
         <NewPortMappingDescription>{description}</NewPortMappingDescription>\r\n\
         <NewLeaseDuration>{duration}</NewLeaseDuration>
         "))
