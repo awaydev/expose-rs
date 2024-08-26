@@ -8,8 +8,8 @@ Also, this library uses only WANIPConnection1 interface.
 
 Everything in one example
 ```
-    let session = discover().unwrap();
-    forward_port(&session, "TCP", 6969, 6969, "test", 0).unwrap(); // forwards internal 6969 port to external 6969
-    close_port(&session, "TCP", 6969).unwrap(); // closes external 6969 port
-    get_extenral_ip(&session).unwrap(); // do I need to what that function does?
+let session = discover().unwrap();
+forward_port(&session, "TCP", 6969, 6969, "test", 0).unwrap(); // forwards internal 6969 port to external 6969
+close_port(&session, "TCP", 6969).unwrap(); // closes external 6969 port
+get_extenral_ip(&session).unwrap(); // do I need describe what that function does?
 ```
